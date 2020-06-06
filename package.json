@@ -1,12 +1,12 @@
 {
     "name": "FreeMarker",
     "displayName": "FreeMarker",
-    "description": "Syntax highlight for FreeMarker",
+    "description": "Syntax highlight for FreeMarker based on dcortes92 extension",
     "version": "0.0.9",
-    "publisher": "dcortes92",
+    "publisher": "sgrinkov",
     "repository": {
         "type": "git",
-        "url": "https://github.com/dcortes92/vs-freemarker.git"
+        "url": "https://github.com/StanislavGrinkov/vs-freemarker.git"
     },
     "engines": {
         "vscode": "^0.10.1"
@@ -24,6 +24,7 @@
                 ],
                 "extensions": [
                     ".ftl"
+                    ,".ftlh"
                 ],
                 "configuration": "./ftl.configuration.json"
             }
@@ -47,9 +48,9 @@
         ]
     },
     "bugs": {
-        "url": "https://github.com/dcortes92/vs-freemarker/issues"
+        "url": "https://github.com/StanislavGrinkov/vs-freemarker/issues"
     },
-    "homepage": "https://github.com/dcortes92/vs-freemarker#readme",
+    "homepage": "https://github.com/StanislavGrinkov/vs-freemarker#readme",
     "dependencies": {},
     "devDependencies": {},
     "scripts": {
@@ -61,7 +62,8 @@
         "code",
         "vs",
         "freemarker",
-        "ftl"
+        "ftl",
+        "ftlh"
     ],
     "author": "Daniel Cortes <dcortes1892@gmail.com> (http://dcortes92.github.io/)",
     "license": "MIT",
